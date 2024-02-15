@@ -1,0 +1,677 @@
+/* font */
+
+@font-face {
+  font-family: "pp_neue_montrealitalic";
+  src: url("font/ppneuemontreal-italic-webfont.woff2") format("woff2"),
+    url("font/ppneuemontreal-italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "pp_neue_montrealregular";
+  src: url("font/ppneuemontreal-regular-webfont.woff2") format("woff2"),
+    url("font/ppneuemontreal-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "pp_neue_montreallight";
+  src: url("font/ppneuemontreal-light-webfont.woff2") format("woff2"),
+    url("font/ppneuemontreal-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "pp_neue_montrealthin_italic";
+  src: url("font/ppneuemontreal-thinitalic-webfont.woff2") format("woff2"),
+    url("font/ppneuemontreal-thinitalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "pp_neue_montrealbold_italic";
+  src: url("font/ppneuemontreal-bolditalic-webfont.woff2") format("woff2"),
+    url("font/ppneuemontreal-bolditalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "pp_neue_montrealbook";
+  src: url("font/ppneuemontreal-book-webfont.woff2") format("woff2"),
+    url("font/ppneuemontreal-book-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "pp_neue_montrealmedium";
+  src: url("font/ppneuemontreal-medium-webfont.woff2") format("woff2"),
+    url("font/ppneuemontreal-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "pp_neue_montrealbold";
+  src: url("font/ppneuemontreal-bold-webfont.woff2") format("woff2"),
+    url("font/ppneuemontreal-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "pp_neue_montrealthin";
+  src: url("font/ppneuemontreal-thin-webfont.woff2") format("woff2"),
+    url("font/ppneuemontreal-thin-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+
+  /* geral */
+}
+html {
+  scroll-behavior: auto;
+}
+body {
+  font-family: "pp_neue_montrealregular", sans-serif;
+  background: #f5f4f0;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+p {
+  color: #f5f4f0;
+  font-family: "pp_neue_montrealthin", sans-serif;
+  font-size: 2vw;
+  margin-bottom: 0.5vh;
+  margin-top: 0.5vh;
+}
+
+.cima {
+  position: fixed;
+  top: 85%;
+  left: 90%;
+  z-index: 100;
+  padding: 32px;
+  mix-blend-mode: difference;
+}
+
+.topo {
+  width: 7vw;
+}
+.nav-button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row {
+  width: 100%;
+}
+.bttn-links {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 9vw;
+}
+.btn {
+  border: 2px solid #000;
+  width: 25%;
+  font-size: 2vw;
+  border-radius: 30px;
+  color: #000;
+  text-decoration: none;
+  transition: 500ms cubic-bezier(0.42, -0.01, 0.54, 1);
+}
+.btn:hover {
+  background: #000;
+  color: #f5f4f0;
+}
+
+.estrela {
+  height: 16vw;
+  position: absolute;
+  left: 62vw;
+  top: -9vw;
+}
+.btn2 {
+  border: 2px solid #000;
+  width: 100%;
+  font-size: 2.5vw;
+  border-radius: 30px;
+  color: #000;
+  text-decoration: none;
+  margin-top: 1.5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn2:hover {
+  background: #000;
+  color: #f5f4f0;
+  transition: 500ms cubic-bezier(0.42, -0.01, 0.54, 1);
+}
+
+.p1 {
+  font-size: 5vw;
+  color: #000;
+  font-family: "pp_neue_montrealregular", sans-serif;
+}
+
+.navbar-nav {
+  font-family: "pp_neue_montrealthin", sans-serif;
+  font-size: 1.5vw;
+  color: #000;
+  gap: 50px;
+  opacity: 100%;
+}
+.navbar-complete {
+  --bs-gutter-x: 0rem;
+}
+.linha1 {
+  border: 1px dashed #000;
+}
+.linha1,
+.linha2 {
+  width: 100%;
+  opacity: 60%;
+  margin-top: -3px;
+}
+.linha2 {
+  border: solid #000 1px;
+}
+
+.here1 {
+  font-family: "pp_neue_montrealbold", sans-serif;
+}
+
+.curiosities {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.feel {
+  width: 30%;
+  margin-left: -3vw;
+  z-index: 0;
+}
+.sec-contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.content {
+  width: 20%;
+  font-size: 2vw;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 1;
+  color: #000;
+}
+
+.info {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-info-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.content-info {
+  font-family: "pp_neue_montrealthin", sans-serif;
+  list-style: none;
+  font-size: 1.7vw;
+}
+
+.img-info {
+  width: 8%;
+  margin-right: 16px;
+}
+.buttons {
+  margin-bottom: 32px;
+}
+.linkinfo {
+  text-decoration: none;
+  color: #000;
+}
+.linkinfo:hover {
+  opacity: 70%;
+}
+.container-sol {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.sol {
+  margin-left: 25vw;
+  width: 10%;
+  margin-top: -6vh;
+}
+
+.posters {
+  width: 100%;
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 7%;
+}
+.teste {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  gap: 64px;
+  box-sizing: border-box;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.imagem-posters {
+  width: auto;
+  max-height: 540px;
+  max-width: 100%;
+  object-fit: cover;
+  border: #f5f4f0 dashed 2px;
+  cursor: pointer;
+  transition: 500ms cubic-bezier(0.42, -0.01, 0.54, 1);
+}
+.imagem-posters:hover {
+  opacity: 80%;
+}
+.eu {
+  justify-content: flex-start;
+}
+.container-posters {
+  width: 100%;
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  outline: #f5f4f0 dashed 2px;
+  outline-offset: 20px;
+  padding-bottom: 5vh;
+}
+.posters-img {
+  outline: #f5f4f0 solid 2px;
+  outline-offset: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.menos {
+  margin-left: -9%;
+}
+
+.editorial {
+  width: 100%;
+  background: #f5f4f0;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 7%;
+  align-items: center;
+}
+
+.container-editorial {
+  width: 90%;
+  background: #f5f4f0;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  outline: #000 dashed 2px;
+  outline-offset: 20px;
+  padding-bottom: 5vh;
+}
+
+.editorial-img {
+  outline: #000 solid 2px;
+  outline-offset: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  text-align: start;
+}
+
+.imagem-editorial {
+  max-height: 600px;
+  max-width: 100%;
+  object-fit: contain;
+  border: #000 dashed 2px;
+  transition: 500ms cubic-bezier(0.42, -0.01, 0.54, 1);
+}
+.imagem-editorial:hover {
+  opacity: 80%;
+}
+
+.imagem-uiux {
+  max-height: 600px;
+  max-width: 100%;
+  object-fit: cover;
+  border: #f5f4f0 dashed 2px;
+  cursor: pointer;
+  transition: 500ms cubic-bezier(0.42, -0.01, 0.54, 1);
+}
+.imagem-uiux:hover {
+  opacity: 80%;
+}
+
+.contornos {
+  outline: #f5f4f0 solid;
+  outline-offset: 10px;
+  cursor: pointer;
+  transition: 500ms cubic-bezier(0.42, -0.01, 0.54, 1);
+}
+
+.contornos:hover {
+  opacity: 80%;
+}
+
+.contornos-2 {
+  outline: #000 solid;
+  outline-offset: 10px;
+  cursor: pointer;
+  transition: 500ms cubic-bezier(0.42, -0.01, 0.54, 1);
+}
+
+.contornos-2:hover {
+  opacity: 80%;
+}
+
+.p2 {
+  color: #000;
+}
+.contornos-2.two {
+  width: 50%;
+}
+.contornos-2.three {
+  width: 33.33%;
+}
+
+.p3 {
+  font-family: "pp_neue_montrealthin";
+  color: #000;
+  font-size: 3vw;
+}
+
+.p4 {
+  font-family: "pp_neue_montrealthin";
+  font-size: 0.85vw;
+  color: #000;
+  text-align: right;
+}
+
+.p5 {
+  font-family: "pp_neue_montrealthin";
+  font-size: 1.2vw;
+  color: #000;
+}
+.proind {
+  margin-top: 5vh;
+}
+.pro {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.grelha1 {
+  outline: #000 dashed 2px;
+  outline-offset: -10px;
+  width: 90vw;
+  padding-bottom: 5vh;
+}
+
+.grelha2 {
+  outline: #000 solid 2px;
+  outline-offset: 10px;
+  width: 100%;
+}
+
+.title-pro {
+  padding: 0 2.3%;
+}
+
+.org-pro {
+  display: flex;
+  justify-content: center;
+  padding: 0 2.3%;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+.org-pro-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 2.3%;
+  gap: 24px;
+}
+.casa-pro {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-pro {
+  width: 48.9%;
+}
+.img-pro.gif {
+  width: 100%;
+  margin-top: 24px;
+  mix-blend-mode: darken;
+}
+
+.jan {
+  width: 12%;
+}
+.rot-90 {
+  transform: rotateZ(-90deg);
+  top: 10%;
+  left: -2%;
+}
+
+.vert {
+  width: 5vw;
+}
+
+/* media queries */
+
+@media screen and (max-width: 800px) {
+  .cima {
+    display: none;
+  }
+  .proind {
+    margin-top: 0;
+  }
+
+  .grelha1 {
+    outline: #000 dashed 2px;
+    outline-offset: -6px;
+    width: 90vw;
+    padding-bottom: 3vh;
+  }
+  .p3 {
+    font-size: 6vw;
+  }
+
+  .org-pro {
+    flex-direction: column;
+  }
+  .img-pro {
+    width: 100%;
+  }
+
+  .jan {
+    width: 100%;
+  }
+  .p5 {
+    font-size: 3.2vw;
+  }
+  .p4 {
+    font-size: 3.85vw;
+    text-align: left;
+  }
+
+  .sol {
+    margin-top: 0;
+    width: 14%;
+  }
+  .content {
+    width: 50%;
+    font-size: 4vw;
+  }
+  .feel {
+    width: 50%;
+    margin-left: -8vw;
+  }
+  .content-info {
+    font-family: "pp_neue_montrealthin", sans-serif;
+    list-style: none;
+    font-size: 2.7vw;
+  }
+  .info ul {
+    padding-left: 6rem;
+  }
+  .casa-pro {
+    flex-direction: column;
+    gap: 24px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    height: 70dvh;
+    justify-content: space-between;
+  }
+  .btn2 {
+    height: 49px;
+    font-size: 3.5vw;
+  }
+  .menos {
+    margin-left: 0;
+  }
+  .teste {
+    flex-direction: column;
+    gap: 32px;
+  }
+  p {
+    font-size: 3vw;
+  }
+
+  .posters-img {
+    outline: none;
+    gap: 0;
+  }
+  .contornos {
+    margin-bottom: 32px;
+  }
+  .editorial-img {
+    outline: 0px;
+  }
+
+  .container-editorial {
+    width: 100%;
+  }
+  .contornos-bttm {
+    margin-bottom: 0;
+  }
+  .cima {
+    display: none;
+  }
+  .curiosities {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .sec-contact {
+    height: calc(100vh - 100px);
+  }
+  .content {
+    width: 100%;
+    justify-content: center;
+    font-size: 7vw;
+    margin-bottom: 1rem;
+  }
+  .content-info {
+    font-size: 6vw;
+    text-align: center;
+  }
+  .feel {
+    display: none;
+  }
+
+  .container-sol {
+    display: none;
+  }
+  .list-info-contact {
+    display: grid;
+    gap: 24px;
+  }
+  .info ul {
+    padding: 0;
+  }
+  .estrela {
+    top: 0;
+    left: 0;
+    position: static;
+  }
+  .nav-button {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .btn {
+    width: 80%;
+    font-size: 4vw;
+  }
+  .bttn-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding: 0;
+  }
+  .proind {
+    margin-top: 0;
+  }
+
+  .grelha1 {
+    outline: #000 dashed 2px;
+    outline-offset: -6px;
+    width: 90vw;
+    padding-bottom: 3vh;
+  }
+  .p3 {
+    font-size: 6vw;
+  }
+
+  .org-pro {
+    flex-direction: column;
+  }
+  .img-pro {
+    width: 100%;
+  }
+
+  .jan {
+    width: 100%;
+  }
+  .p5 {
+    font-size: 4.2vw;
+  }
+}
